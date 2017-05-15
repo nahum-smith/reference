@@ -1,6 +1,6 @@
-#Python Setup Procedure
+# Python Setup Procedure
 
-##Step Zero- Create a project skeleton if you don't have one
+## Step Zero- Create a project skeleton if you don't have one
 
 1)  `$ mkdir skeleton`
 2)  `$ cd skeleton`
@@ -77,21 +77,17 @@ You should see:
     Ran 1 test in 0.0006s
 
     OK
-    
+
   ```
 
-##Step one- Initial Setup
+## Step one- Initial Setup
 1) Create a virtual environment (segregated installation)
   * `$ mkvirtualenv <my_project>`
 2) Initialize source control
   * `$ git init`
   * `$ touch .gitignore`
-  * add: *.pyc and __pycache__ to the .gitignore
+  * add: `*.pyc` and `__pycache__` to the `.gitignore`
 3) `$ touch README.md`
   * add basic program description
 4) create first commit with those two files
-
-##Step Two - Skeleton Creation or import
-
-1) `$ mkdir skeleton`
-2) $
+5) copy project skeleton from above
