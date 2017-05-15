@@ -1,7 +1,6 @@
 # Python Setup Procedure
-(distilled from [Zed Shaw's Learn Python the Hard Way](https://learnpythonthehardway.org/book/ex46.html) and [Jeff Knupp's Starting a Python Project the Right Way](https://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/)
 
-## Step Zero- Create a project skeleton if you don't have one
+### Step Zero- Create a project skeleton if you don't have one
 
 1)  `$ mkdir skeleton`
 2)  `$ cd skeleton`
@@ -81,7 +80,7 @@ You should see:
 
   ```
 
-## Step one- Initial Setup
+### Step one- Initial Setup
 1) Create a virtual environment (segregated installation)
   * `$ mkvirtualenv <my_project>`
 2) Initialize source control
@@ -92,3 +91,6 @@ You should see:
   * add basic program description
 4) create first commit with those two files
 5) copy project skeleton from above
+
+
+(distilled from [Zed Shaw's Learn Python the Hard Way](https://learnpythonthehardway.org/book/ex46.html) and [Jeff Knupp's Starting a Python Project the Right Way](https://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/)
