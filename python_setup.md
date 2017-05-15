@@ -1,4 +1,5 @@
 # Python Setup Procedure
+(distilled from [Zed Shaw's Learn Python the Hard Way](https://learnpythonthehardway.org/book/ex46.html) and [Jeff Knupp's Starting a Python Project the Right Way](https://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/)
 
 ## Step Zero- Create a project skeleton if you don't have one
 
