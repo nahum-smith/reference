@@ -1,21 +1,20 @@
 # Creating Readable Code: Commenting
- The following includes a listing of advice and suggestions for commenting one's code.  Will be updated as more information is found.
+ The following includes a listing of advice and suggestions for commenting one's code.  Will be updated as more information is found.  
 
-### General Points
-
-All time saved by not commenting during the coding process is made up more than twice at least by inserting comments and providing documentation after the coding process is finished.  
+*"All time saved by not commenting during the coding process is made up more than twice at least by inserting comments and providing documentation after the coding process is finished."*
 
 ### Example types
 
-**Code Commenting**
+**Code Commenting**  
 This refers to writing descriptive variable names that are self-explanatory.  
+
 **Inline Commenting**  
 These comments come at the end of a line of code, but could also be referring to comments inside function blocks.  
-
 Some claim this type of commenting are problematical and often useless.  This is because the very nature of an 'in-line' comments forces brevity due to the space constraints.  
 
 **Function Comments**  
 These comments are found above the function declaration and reveal necessary details about the following function. Includes: parameters, return values, and any logic nuances and/or decisions that were made.  
+ 
 **Class / Page Commenting**  
 These comments refer to an entire page or top level object.  These comments act as 'headers' and include broad overview, last edit date, associated files, author and contact information.  There is some debate about the necessity of these types of comments.  Some state that the header block organization creates unnecessary future requirements for every coder to follow the same commenting structure.  Also, to include edit dates and author information seems redundant if good version control practices are already being followed.  
 
