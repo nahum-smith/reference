@@ -1,26 +1,26 @@
 # Relationships in a No-SQL (MongoDB) Database
 
-**There is no rule when embedding data in MongoDB, but overall, we should observe:**
-  •	 Whether we have a one-to-one relationship between documents.
+**There is no rule when embedding data in MongoDB, but overall, we should observe:**  
+
+  •	 Whether we have a one-to-one relationship between documents.  
   •	 Whether we have a one-to-many relationship between documents, and
-whether the "many" part of the relationship is very dependent of the "one"
-part. This means, for instance, that every time we present the "one" part,
-we will also present the "many" part of the relationship.  
+whether the "many" part of the relationship is very dependent of the "one" part. This means, for instance, that every time we present the "one" part, we will also present the "many" part of the relationship.  
 
-**There is no rule for references using MongoDB, but overall, we should observe:**
-  •	 Whether we are duplicating the same information many times while embedding data (this shows poor reading performance)
-  •	 Whether we need to represent many-to-many relationships
-  •	 Whether our model is a hierarchy
+**There is no rule for references using MongoDB, but overall, we should observe:**  
 
-**To Embed or to Reference**
-This section will present you with patterns that illustrate when to embed or when to
-reference documents. Until now, we have considered as a deciding factor:
-  •	 Whether consistency is the priority
-  •	 Whether read is the priority
-  •	 Whether write is the priority
-  •	 What update queries we will make
-  •	 Document growth
+  •	 Whether we are duplicating the same information many times while embedding data (this shows poor reading performance)  
+  •	 Whether we need to represent many-to-many relationships  
+  •	 Whether our model is a hierarchy  
 
+**To Embed or to Reference**  
+
+This section will present you with patterns that illustrate when to embed or when to reference documents. Until now, we have considered as a deciding factor:  
+  •	 Whether consistency is the priority  
+  •	 Whether read is the priority  
+  •	 Whether write is the priority  
+  •	 What update queries we will make  
+  •	 Document growth  
+  
 #### One to One Relationships
 
 Most of the time one-to-one relationships are modeled using an embedded document, especially if that one document is contained by the other.
